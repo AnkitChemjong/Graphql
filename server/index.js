@@ -68,7 +68,7 @@ async function startServer() {
   app.use('/graphql', expressMiddleware(server));
 
   app.listen(8000, () => {
-    console.log('Connected at port: 8000');
+    console.log('Connected at the port: 8000');
   });
 }
 
